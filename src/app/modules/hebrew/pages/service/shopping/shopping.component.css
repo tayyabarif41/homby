@@ -1,0 +1,195 @@
+*{
+    font-family: NotoSansHebrew-Regular;
+}
+
+/* Shoping Stuff */
+#hidee{
+    color: transparent;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin: 0px auto;
+  }
+  .flex-container h4{
+      margin-bottom: 20px;
+  }
+  .flex-container p{
+      margin-bottom: 50px;
+  }
+  
+  .flex-container > div {
+    width: 45%;
+    margin: 10px auto;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(172, 163, 163, 0.5);
+  }
+  .flex-container img{
+      width: 90%;
+  }
+/* Shopping Stuff Ends */
+
+#mobileImg{
+    display: none;
+}
+input{
+    border: none;
+    text-align: right;
+    padding: 10px;
+    background-color : #d1d1d1; 
+    width: 29.5%;
+    height: 56px;
+    border-radius: 5px;
+    border: 1px solid #D0D1D4;
+    font-size: 18px;
+}
+#paragraph{
+    padding-bottom: 0px !important;
+}
+form{
+    padding: 0px 80px 50px 80px;
+}
+.marginAuto{
+    margin: 0px auto;
+    padding: 0px;
+}
+header{
+    height: 48vh;
+}
+
+/* Slider CSS */
+.playIcon{
+    width: 83.22px; 
+    height:83.22px
+}
+
+/* Video Modal */
+.whiteClose{
+    width: 37px;
+    height: 37px;
+}
+.m_height{
+    height: 500px ;
+}
+#exampleModalCenter{
+    max-width: 100% !important;
+}
+#exampleModalCenter .modal-dialog{
+    max-width: 60%;
+}
+#contactModal .modal-dialog{
+    width: 468px;
+    height: 541px;
+}  
+.carousel-indicators li {
+    background-color: transparent !important;
+}
+
+.scrolIcon{
+    height: 24px !important;
+    width: 8px !important;
+}
+.one{
+    margin: 0px auto;
+    display: flex;
+}
+.two{
+    margin: 0px auto;
+    display: flex;
+}
+#mobile{
+    display: none;
+}
+#paragraph{
+    background-color: white !important;
+}
+.modal-content{
+    overflow-y: hidden !important;
+}
+@media(max-width: 600px){
+    .modal-content{
+        overflow-y: hidden !important;
+    }
+    .flex-container{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .flex-container > div {
+        width: 100%;
+      }
+    #hidee{
+        display: none;
+    }
+    #paragraph{
+        background-color: #F2F2F2 !important;
+    }
+    #web{
+        display: none;
+    }
+    #mobile{
+        display: block;
+    }
+    .one{
+        margin: 0px auto;
+        display: block;
+        width: 100%;
+    }
+    .two{
+        margin: 0px auto;
+        display: block;
+    }
+    .font30{
+        font-size: 18px !important;
+    }
+    .a, .b{
+        display: block !important;
+    }
+    header{
+        height: 58vh !important;
+    }
+    .scrolIcon{
+        height: 12px !important;
+        width: 4px !important;
+    }
+    #exampleModalCenter{
+        max-width: 100% !important;
+    }
+    #exampleModalCenter .modal-dialog{
+        max-width: 100%;
+    }
+    .font45{
+        font-family: 'NotoSansHebrew-Bold';
+        font-size: 22px;
+    }
+    .playIcon{
+        width: 48.83px;
+        height: 48.83px;
+    }
+    #webImg{
+        display: none;
+    }
+    #mobileImg{
+        display: block;
+    }
+    .headerAbove{
+        display: none !important;
+    }
+    .font45{
+        font-size: 30px !important;
+        margin: 0px auto;
+    }
+    .whiteClose{
+        width: 17px;
+        height: 17px;
+    }
+    .m_height{
+        height: 250px;
+    }
+ 
+   
+
+}
+
+

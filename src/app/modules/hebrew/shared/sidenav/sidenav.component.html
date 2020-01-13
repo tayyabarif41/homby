@@ -1,0 +1,49 @@
+<div class="nav d-flex flex-column">
+    <div style="width: 100%; height: 13%;" class="d-flex">
+        <a [routerLink]="['/home']"  routerLinkActive='active' #rla="routerLinkActive" class=" shadow-sm" style="color: black; padding:5px 0px; height: 5pc;">
+            <!-- <img class="navImage" style="width: 50.88px;" src="{{rla.isActive ? '../../../assets/1.svg':' }}" alt=""> -->
+            <ng-container *ngIf="rla.isActive; then a ; else b" ></ng-container>
+            <ng-template #a>
+                <div style="height: 100%;">
+                    <img class="navImage"   style="width: 35.88px;" src="../../../assets/1.svg" alt="">
+                </div>
+            </ng-template>
+            <ng-template #b>
+                <div>
+                    <img class="navImage" style="width: 50.88px;" src="../../../assets/icons/logo.png" alt="">
+                </div>
+            </ng-template>
+        </a>
+    </div>
+    <div style="width: 100%; height: 87%; color: black;">
+        <ul class="d-flex flex-column justify-content-between">
+            <li> 
+                <a [routerLink]="['/services/apart']" routerLinkActive='active' class="navimgbtn "><img class="navImage" src="../../../assets/icons/appartments.svg" alt=""></a>
+            </li>
+            <li>
+                <a [routerLink]="['/services/shopping']" routerLinkActive='active' class="navimgbtn"><img class="navImage" src="../../../assets/icons/shopping.svg" alt=""></a><br>
+            </li>
+            <li>
+                <a [routerLink]="['/services/contractor']" routerLinkActive='active' class="navimgbtn"><img class="navImage" src="../../../assets/icons/contractor.svg" alt=""></a><br>
+            </li>
+            <li>
+                <a [routerLink]="['/services/mortgage']" routerLinkActive='active' class="navimgbtn"><img class="navImage" src="../../../assets/icons/mortgage.svg" alt=""></a><br>
+            </li>
+            <li>
+                <a [routerLink]="['/services/archi']" routerLinkActive='active' class="navimgbtn"><img class="navImage" src="../../../assets/icons/architect.svg" alt=""></a><br>
+            </li>
+            <li>
+                <a [routerLink]="['/services/compare']" routerLinkActive='active' class="navimgbtn"><img class="navImage" src="../../../assets/icons/compare.svg" alt=""></a>
+            </li>
+            <li>
+                <div style="position: relative;">
+                    <a [routerLink]="['/services/updatebenefits']" id="updateicon" routerLinkActive='active' class="navimgbtn" style="padding: 24px !important;">
+                        <img class="fishes" style="width: 42px;"   src="../../../assets/icons/update.svg" alt="">
+                        <img id="div1" width="22px" class="fish" src="../../../assets/icons/2.svg" alt="">
+                    </a><br>
+                </div>
+            </li>
+        </ul>
+    </div>     
+</div>
+

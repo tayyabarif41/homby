@@ -1,0 +1,12 @@
+.shoppingStuff{
+    text-align: center;
+}
+.shoppingStuff .info{
+    padding: 5px;
+}
+.shoppingStuff img{
+    padding: 20px;
+}
+.shoppingStuff h4{
+    padding: 5px;
+}

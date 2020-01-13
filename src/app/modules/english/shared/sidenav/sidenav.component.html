@@ -1,0 +1,43 @@
+<div class="nav">
+        <a [routerLink]="['./home']"  routerLinkActive='active' #rla="routerLinkActive" class="navimgbtn shadow-sm" style="color: black; padding:5px 0px;">
+            <!-- <img class="navImage" style="width: 50.88px;" src="{{rla.isActive ? '../../../assets/1.svg':' }}" alt=""> -->
+            <ng-container *ngIf="rla.isActive; then a ; else b" ></ng-container>
+            <ng-template #a>
+                <div>
+                    <img class="navImage"   style="width: 35.88px;" src="../../../assets/1.svg" alt="">
+                </div>
+            </ng-template>
+            <ng-template #b>
+                <div>
+                    <img class="navImage" style="width: 50.88px;" src="../../../assets/icons/logo.png" alt="">
+                </div>
+            </ng-template>
+        </a>
+        <!-- מרכז דירות ונכסים  -->
+        <!-- Apartment and property center -->
+        <a [routerLink]="['./services/apart']" routerLinkActive='active' class="navimgbtn "><img class="navImage" src="../../../assets/icons/appartments.svg" alt=""></a><br>
+        <!-- מרכז חנויות -->
+        <!-- Shopping center -->
+        <a [routerLink]="['./services/shopping']" routerLinkActive='active' class="navimgbtn"><img class="navImage" src="../../../assets/icons/shopping.svg" alt=""></a><br>
+        <!-- מרכז קבלנים -->
+        <!-- Contractors Center -->
+        <a [routerLink]="['./services/contractor']" routerLinkActive='active' class="navimgbtn"><img class="navImage" src="../../../assets/icons/contractor.svg" alt=""></a><br>
+        <!-- מרכז המשכנתא -->
+        <!-- Mortgage Center -->
+        <a [routerLink]="['./services/mortgage']" routerLinkActive='active' class="navimgbtn"><img class="navImage" src="../../../assets/icons/mortgage.svg" alt=""></a><br>
+        <!-- מרכז אדריכלים -->
+        <!-- Architects Center -->
+        <a [routerLink]="['./services/archi']" routerLinkActive='active' class="navimgbtn"><img class="navImage" src="../../../assets/icons/architect.svg" alt=""></a><br>
+        <!-- השוואת מחירים -->
+        <!-- Compare prices -->
+        <a [routerLink]="['./services/compare']" routerLinkActive='active' class="navimgbtn"><img class="navImage" src="../../../assets/icons/compare.svg" alt=""></a>
+        <!-- עדכונים והטבות -->
+        <!-- Updates and benefits -->
+        <div style="position: relative;">
+            <a [routerLink]="['./services/updatebenefits']" id="updateicon" routerLinkActive='active' class="navimgbtn">
+                <img class="fishes" style="width: 42px;"   src="../../../assets/icons/update.svg" alt="">
+                <img id="div1" width="22px" class="fish" src="../../../assets/icons/2.svg" alt="">
+            </a><br>
+        </div>
+</div>
+

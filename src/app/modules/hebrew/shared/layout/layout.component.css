@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding:0px;
+    height: 100%;
+}
+#mobileNav{
+    display: none;
+}
+#webSideNav{
+    z-index: 1;
+}
+#footer{
+    z-index: -1;
+}
+@media(max-width: 600px){
+    #webSideNav{
+        display: none !important;
+    }
+    #mobileNav{
+        display: block;
+        margin: 0px 0px 10px 0px;
+    }
+    .headerAbove{
+        display: none !important;
+    }
+}

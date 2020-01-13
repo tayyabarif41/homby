@@ -1,0 +1,293 @@
+<div class="col-12" style="padding: 0px">
+    <!-- Header -->
+    <header class="header-logo col-sm-12 col-md-12">
+        <img class="logo" src="../../../assets/icons/logo.png" alt="">
+        <div class="col-sm-12" style="margin: 0px auto 0px auto;">
+            <span class="font49" style="color: #707070;">מרכז הנדלן לבית</span>
+        </div>
+        <!-- <div class="col-sm-6" style="position: relative; margin: 0px auto; padding: 0px;">
+            <div class="col-sm-12" style="position: absolute;  text-align: center;">
+            </div>
+        </div> -->
+        <div class="a" >
+            <img id="webImg" style="height:auto; width: 90%;" class="bgImg img-fluid"  src="../../../assets/images/Home Page/homebg.png" alt="">
+            <img id="mobileImg" class="bgImg" src="../../../assets/images/Home Page/homeMobilebg.png" alt="">
+            <a class="btn" onClick="console.log('pressed')" data-toggle="modal" data-target="#exampleModalCenter"><img class="playIcon" src="../../../../assets/icons/play.png" alt=""></a>
+            <a class="btn" onClick="console.log('pressed')" data-toggle="modal" data-target="#exampleModalCenter"><img  class="bgBox" src="../../../assets/images/Home Page/Path 4805.png" alt=""></a>
+        </div>
+        <div class="homeButton col-12">
+            <div class="col-8 marginAuto">
+                <div>
+                    <button class="btn locate shadow-sm">לאתר</button>
+                </div>
+                <div>
+                    <button class="btn contactUs">צור קשר</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!--  Locate And Contact Us -->
+  
+
+    <!-- Services -->
+    <div class="text-center mb-5">
+        <a ><img class="scrolIcon" src="../../../assets/scrollicon.svg" alt=""></a>
+    </div>
+    <div class="col-12" id="services">
+        <!-- Homby -->
+      
+            <div class="col-12 marginAuto" >
+                
+                <div class="text-center hidesection">
+                    <div>
+                        <span class="font36" style="color: #707070;">HOMBY הצעות של </span>
+                    </div>
+                    <div style="margin-top: 10px; margin-bottom: 20px;">
+                        <span class="font20" style="color: #B2AFAF;">לחץ על האיקון כדי לקבל יותר פרטים</span>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Services -->
+            <div class="col-8 marginAuto" >
+                <div class="webForm container col-sm-10 hidesection">
+                    <div class="d-flex" style="margin: 0px auto;" >
+                        <div class="col-sm-4 center box" style="height: 240px;">
+                            <div>
+                                <img class="boxImage" style="width: 110.59px; height: 84.25px;" src="../../../assets/icons/shopping.svg" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 25px; font-family: 'NotoSansHebrew-Regular'; color: #5A5B5E;">מרכז חנויות</span>
+                            </div>
+                            <div class="hide flyout">
+                                <div>
+                                    <h5 style="color: #5A5B5E; font-size: 17px;">לעיצוב הבית</h5>
+                                </div>
+                                <div>
+                                    <a  style="color: #35B0E5; font-size: 20px;"[routerLink]="['/services/shopping']">לפרטים</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-4 center box1" style="height: 240px;">
+                            <div>
+                                <img class="boxImage" style="width: 87.62px; height: 89.35px;" src="../../../assets/icons/contractor.svg" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 25px; font-family: 'NotoSansHebrew-Regular'; color: #5A5B5E;">מרכז קבלנים</span>
+                            </div>
+                            <div  class="hide1">
+                                <a style="color: 35B0E5;" class="font20" [routerLink]="['/services/contractor']">לפרטים</a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 center box2" style="height: 240px;">
+                            <div>
+                                <img class="boxImage" style="width: 100.35px; height: 84.64px;"  src="../../../assets/icons/appartments.svg" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 25px; font-family: 'NotoSansHebrew-Regular'; color: #5A5B5E;">מרכז דירות ונכסים</span>
+                            </div>
+                            <div  class="hide2">
+                                <a style="color: 35B0E5;" class="font20" [routerLink]="['/services/apart']">לפרטים</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex " style="margin: 0px auto;">
+                        <div class="col-sm-4 center box3" style="height: 240px;">
+                            <div>
+                                <img class="boxImage"  src="../../../assets/icons/compare.svg" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 25px; font-family: 'NotoSansHebrew-Regular'; color: #5A5B5E;">השוואת מחירים</span>
+                            </div>
+                            <div  class="hide3">
+                                <a style="color: 35B0E5;"class="font20" [routerLink]="['/services/compare']">לפרטים</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 center box4" style="height: 240px;">
+                            <div>  
+                                <img class="boxImage"  src="../../../assets/icons/architect.svg" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 25px; font-family: 'NotoSansHebrew-Regular'; color: #5A5B5E;">מרכז אדריכלים</span>
+                            </div>
+                            <div  class="hide4">
+                                <a style="color: 35B0E5;" class="font20" [routerLink]="['/services/archi']">לפרטים</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 center box5" style="height: 240px;">
+                            <div>
+                                <img class="boxImage" src="../../../assets/icons/mortgage.svg" alt="">
+                            </div>
+                            <div>
+                                <span style="font-size: 25px; font-family: 'NotoSansHebrew-Regular'; color: #5A5B5E;">מרכז המשכנתא</span>
+                            </div>
+                            <div  class="hide5">
+                                <a style="color: 35B0E5;"  class="font20" [routerLink]="['/services/mortgage']">לפרטים</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row-reverse" style="margin: 0px auto; margin-top: 10px;">
+                        <div class="col-sm-4 center box6" style="height: 250px;">
+                            <div>
+                                <div style="position: relative; left: 0; top: 0;">
+                                    <img class="fishes" style="width: 90px;" class="boxImage"  src="../../../assets/icons/update.svg" alt="">
+                                    <img id="div2" class="fish" src="../../../assets/icons/2.svg" alt="">
+                                </div>
+                            </div>
+                            <div>    
+                                <span style="font-size: 25px; font-family: 'NotoSansHebrew-Regular'; color: #5A5B5E;">עדכונים והטבות</span>
+                            </div>
+                            <div class="hide6">
+                                <div>
+                                    <span style="color: #5A5B5E; font-size: 25px;">בחינם</span>
+                                </div>
+                                <div>
+                                    <a style="color: 35B0E5;" class="font20" [routerLink]="['/services/updatebenefits']">לפרטים</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 mobileForm hidesection" style="padding: 10px 5px">
+              
+                <div class="row marginBottom">
+                    <div class="col-4 col-md-4 text-center">
+                        <button [routerLink]="['/services/contractor']" style="width: 100%;">
+                            <img class="serviceImg" src="../../../assets/icons/contractor.svg" alt=""><br>
+                            <div>
+                                <span style="font-size: 10px; color: #707070;">בניה</span>
+                            </div>
+                            <div>
+                                <span style="font-size: 10px; color: #707070;">ושיפוצים</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-4 col-md-4 text-center">
+                        <button [routerLink]="['/services/shopping']">
+                            <img class="serviceImg" src="../../../assets/icons/shopping.svg" alt=""><br>
+                            <div>
+                                <span style="font-size: 10px; color: #707070;">מרכז החנויות</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-4 col-md-4 text-center">
+                        <button [routerLink]="['/services/apart']">
+                            <img class="serviceImg" src="../../../assets/icons/appartments.svg" alt=""> <br>
+                            <div>                           
+                            <span style="font-size: 10px; color: #707070;">דירות</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="row marginBottom">
+                    <div class="col-4 col-md-4 text-center">
+                        <button [routerLink]="['/services/compare']">
+                            <img class="serviceImg" src="../../../assets/icons/compare.svg" alt=""><br>
+                            <div>
+                                <span style="font-size: 10px; color: #707070;">השוואת מחירים</span>
+                            </div>
+                            <div>    
+                                <span style="font-size: 10px; color: #707070;">נדלן</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-4 col-md-4 text-center">
+                        <button [routerLink]="['/services/archi']">
+                            <img class="serviceImg" src="../../../assets/icons/architect.svg" alt=""> <br>
+                            <div>
+                                <span style="font-size: 10px; color: #707070;">מרכז אדריכלים</span>
+                            </div>
+                            <div>
+                                <span style="font-size: 10px; color: #707070;">ומעצבים</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-4 col-md-4 text-center">
+                        <button [routerLink]="['/services/mortgage']">
+                            <img class="serviceImg" src="../../../assets/icons/mortgage.svg" alt=""><br>
+                            <div>
+                                <span style="font-size: 10px; color: #707070;">מימון</span>
+                            </div>
+                            <div>
+                                <span style="font-size: 10px; color: #707070;">ומשכנתא</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row marginBottom flex-row-reverse">
+                    <div class="col-4 col-md-4 text-center">
+                        <button [routerLink]="['/services/updatebenefits']"  style="width: 100%;">
+                                <div style="position: relative; left: 0; top: 0; height: 30px; border: none !important;">
+                                    <img class="fishes" class="serviceImg" style="height: 40px !important; width: 40px;"  src="../../../assets/icons/update.svg" alt="">
+                                    <img id="div2"  class="fish" src="../../../assets/icons/2.svg" alt="">
+                                </div>
+                            <div>    
+                                <span style="font-size: 10px; margin-right: 5px; color: #707070; margin-left: 8px;">עדכונים והטבו</span><h6 style="font-size: 10px; color: #707070;">2</h6>
+                            </div>
+                            <div>
+                                <span style="font-size: 10px; color: #707070;">בחינם</span>
+                            </div>
+                        </button>
+                </div> 
+            </div>
+    </div>
+
+    <!--Contact Form -->
+    <section  class="col-12" id="form">
+        <!-- Form Title -->
+        
+        <!-- Web Contact Form -->
+        <div  class="col-7 webForm" style="padding: 0px; margin: 0px auto;">
+            <div class="col-12 marginAuto text-right formTitle" >
+                <div style="margin: 15px 0px">
+                    <span style="font-size: 30px;">ייעוץ חינם</span>
+                </div>
+            </div>
+            <form action="" class="d-flex justify-content-between">
+                <input type="text" name="" id="1" placeholder="טלפון">
+                <input type="text" name="" id="2" placeholder="אימייל">
+                <input type="text" name="" id="3" placeholder="שם מלא">
+            </form>
+            <div class="d-flex flex-row-reverse">
+                <button (click)="abc()" type="submit" class="btn" style="background-color:#35B0E5 ;color: white; width: 29.5%; height: 56px; margin: 2pc 0px;">שלח</button>
+            </div>
+        </div>
+    <!-- Mobile Contact Form -->
+        <div  class="col-12 mobileForm" style="padding: 0px; margin: 0px auto;">
+            <div class=" marginAuto text-right formTitle" >
+                <div style="margin: 15px 0px">
+                    <span style="font-size: 12px;">ייעוץ חינם</span>
+                </div>
+            </div>
+            <form action="">
+                <input style="width: 100% !important; margin-bottom: 20px; background-color: white; color:#949494" type="text" name="" id="1" placeholder="טלפון">
+                <input style="width: 100% !important; margin-bottom: 20px; background-color: white; color:#949494"  type="text" name="" id="2" placeholder="אימייל">
+                <input style="width: 100% !important; margin-bottom: 20px; background-color: white; color:#949494"  type="text" name="" id="3" placeholder="שם מלא">
+                <button (click)="abc()" class="btn btn-primary" style="width: 100%; color: white; margin:5px 0px; background-color: #35B0E5; padding: 1pc;">שלח</button>
+            </form>
+        </div>
+    </section>
+
+<!-- container -->
+</div>
+
+<!-- Video Modal -->
+<div class="modal fade " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content" style="border: none;background-color: transparent;">
+        <div class="modal-body" style="background-color: transparent;">
+            <button class="btn" style="padding: 0px !important; margin: 5px 0px !important;"  data-dismiss="modal"><img src="../../../../assets/icons/white close.svg" class="whiteClose" alt=""></button>
+            <div class="frame">
+                <iframe class="m_height"  src="https://www.youtube-nocookie.com/embed/5Peo-ivmupE"></iframe>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>

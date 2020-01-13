@@ -1,0 +1,15 @@
+@font-face {
+    font-family: NotoSansHebrew-Bold;
+    src: url("./assets/font/NotoSansHebrew-Bold.ttf") format("truetype");
+    
+}
+@font-face {
+    font-family: NotoSansHebrew-Regular;
+    src: url("./assets/font/NotoSansHebrew-Regular.ttf") format("truetype");
+    
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("./assets/font/Roboto-Regular.ttf") format("truetype");
+    
+}  

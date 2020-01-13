@@ -1,0 +1,98 @@
+<div class="col-12 flex-row-reverse" style="margin-bottom: -20px; padding: 0px !important;">
+    <div class="col-12 d-flex flex-row-reverse" style="padding: 0px;">
+        <div class="col-4 text-right" style="padding: 0px;">
+            <a class="btn btn-demo "  data-toggle="modal" data-target="#exampleModal"><img src="../../../assets/icons/menu right.png" alt=""></a>
+        </div>
+    </div>
+    <div class="modal left fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header col-sm-12">
+                    <div style="position: relative; z-index: 2;">
+                        <div style="position: absolute; top: 0px; left:0px">
+                            <a class="btn" data-dismiss="modal"><img src="../../../assets/icons/menu left.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div  style="z-index: 1;" class="d-flex justify-content-center col-sm-12">
+                        <a   [routerLink]="['/home']" data-dismiss="modal"  routerLinkActive='active' class="navimgbtn btn" style="margin-top: 20px; color: black;"><img class="navImage" src="../../../../../assets/icons/mobileSidenavLogo.svg" alt=""><br><span style="font-size: 21px; color: #676767; font-family: NotoSansHebrew-Bold;">Homby</span></a>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <!-- מרכז דירות ונכסים  -->
+                        <!-- Apartment and property center -->
+                        <li class="d-flex"> 
+                            <div style="width:80%; margin-top: 6px; margin-right: 10px;" class="text-right">
+                                <a [routerLink]="['/services/apart']" data-dismiss="modal" routerLinkActive='active' class="navimgbtn"><span class="iconTitle">מרכז דירות ונכסים</span></a>
+                            </div>
+                            <div style="width: 20%;">
+                                <img class="navImage" src="../../../assets/icons/appartments.svg" alt="">
+                            </div>
+                        </li>
+                        <!-- מרכז חנויות -->
+                        <!-- Shopping center -->
+                        <li class="d-flex">  
+                            <div style="width:80%; margin-top: 6px; margin-right: 10px;" class="text-right">
+                                <a [routerLink]="['/services/shopping']" data-dismiss="modal" routerLinkActive='active' class="navimgbtn"><span class="iconTitle"> מרכז חנויות לעיצוב הבית</span></a><br>
+                            </div>
+                            <div style="width: 20%;">
+                                <img class="navImage" src="../../../assets/icons/shopping.svg" alt="">
+                            </div>
+                        </li>
+                        <!-- מרכז קבלנים -->
+                        <!-- Contractors Center -->
+                        <li class="d-flex"> 
+                            <div style="width:80%; margin-top: 6px; margin-right: 10px;" class="text-right">
+                                <a [routerLink]="['/services/contractor']" data-dismiss="modal" routerLinkActive='active' class="navimgbtn"><span class="iconTitle">מרכז הקבלנים</span></a><br>
+                            </div>
+                            <div style="width: 20%;">
+                                <img class="navImage" src="../../../assets/icons/contractor.svg" alt="">
+                            </div>
+                        </li>
+                        <!-- מרכז המשכנתא -->
+                        <!-- Mortgage Center -->
+                        <li class="d-flex">
+                            <div style="width:80%; margin-top: 6px; margin-right: 10px;" class="text-right">
+                                <a [routerLink]="['/services/mortgage']" data-dismiss="modal" routerLinkActive='active' class="navimgbtn"><span class="iconTitle">מרכז המשכנתא</span></a><br>
+                            </div>
+                            <div style="width: 20%;">
+                                <img class="navImage" src="../../../assets/icons/mortgage.svg" alt="">
+                            </div>
+                        </li>
+                        <!-- מרכז אדריכלים -->
+                        <!-- Architects Center -->
+                        <li class="d-flex">
+                            <div style="width:80%; margin-top: 6px; margin-right: 10px;" class="text-right">
+                                <a [routerLink]="['/services/archi']" data-dismiss="modal" routerLinkActive='active' class="navimgbtn"><span class="iconTitle">מרכז אדריכלות ועיצוב פנים</span></a>
+                            </div>
+                            <div style="width: 20%;">
+                                <img class="navImage" src="../../../assets/icons/architect.svg" alt="">
+                            </div>
+                        </li>
+                        <!-- השוואת מחירים -->
+                        <!-- Compare prices -->
+                        <li class="d-flex">
+                            <div style="width:80%; margin-top: 6px; margin-right: 10px;" class="text-right">
+                                <a [routerLink]="['/services/compare']" data-dismiss="modal" routerLinkActive='active' class="navimgbtn"><span class="iconTitle">השוואת מחירים</span></a>
+                            </div>
+                            <div style="width: 20%;">
+                                <img class="navImage" src="../../../assets/icons/compare.svg" alt="">
+                            </div>
+                        </li>
+                        <!-- עדכונים והטבות -->
+                        <!-- Updates and benefits -->
+                        <li class="d-flex">
+                            <div style="width:80%; margin-top: 6px; margin-right: 10px;" class="text-right">
+                                <a [routerLink]="['/services/updatebenefits']" data-dismiss="modal" routerLinkActive='active' class="navimgbtn"><span class="iconTitle"> עדכונים והטבות בחינם</span><span>2</span></a>
+                            </div>
+                            <div style="width: 20%;" class="text-right">
+                                <img class="navImage" style="width: 55px !important;" src="../../../assets/icons/update.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+</div>

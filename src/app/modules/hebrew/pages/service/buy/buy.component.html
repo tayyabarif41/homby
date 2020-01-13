@@ -1,0 +1,119 @@
+<div class="col-sm-12 col-md-12 container">
+    <header class="header-logo col-sm-12 col-md-12" style="height: auto;" >
+        <img class="logo" src="../../../../../../assets/icons/buy.png" alt=""><br>
+        <div style="padding-bottom: 20px;">
+            <span class="slogan" >סדרת הקטלוגים לעיצוב הבית</span>
+        </div>
+        <hr>
+        <div style="padding: 10px 0px;">
+            <div class="container" style="margin: 0px auto">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade col-8" style="margin:0px auto"  data-interval='2000' data-ride="carousel">
+                    <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <span class="slogan font45" style="color: #B5B5B5;" >מיצג ענק של מוצרים ממגוון חנויות</span>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="slogan font45" style="color: #B5B5B5;" >כל הקטגוריות לעיצוב הבית</span>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="slogan font45" style="color: #B5B5B5;" >ריצוף / כלים סניטריים
+                                חיפויי קירות / שיש / מטבחים
+                                
+                                </span>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="slogan font45" style="color: #B5B5B5;" >ברזים / דלתות / ריהוט
+                                מראות מוצרי נוי / טרנדים / ועוד
+                                </span>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <hr>
+            <!-- <a class="btn carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"onClick="console.log('pressed')"><img src="../../../../assets/icons/play.png" alt=""></a> -->
+     
+
+    </header>
+    <div class="header-logo">
+        <div class=" col-12"> 
+            <div class="col-8" style="margin: 0px auto; height: auto;">
+                <button class="btn" data-toggle="modal" data-target="#exampleModalCenter" ><img class="playIcon"  src="../../../../assets/icons/play.png" alt=""></button>
+            </div>
+        </div>
+        <button class="btn playCon" data-toggle="modal" data-target="#contactModal" style="color: #0093D8; margin-top:5px; font-size: 23px">צור קשר</button>
+        <img id="webImg" class="bgImg" src="../../../../assets/images/apart/apart.png" alt="">
+        <img id="mobileImg" class="bgImg" src="../../../../assets/images/apart/mobileApartBG.png" alt="">
+    </div>
+    <!-- Slider -->
+
+    <!-- <button  class="btn btn-primary carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+    </button>
+    <button class="btn btn-primary carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </button> -->
+
+    <section id="paragraph">
+        <div class="col-sm-8 col-md-8 info">
+            <p>כל מה שצריכים לדעת בקניית דירה, שיפוץ, ועיצוב הבית</p>
+            <p>מדורים עם המון צבע וטרנדים חדשים</p>
+            <p>רכישת דירה / פיננסי / תכנון אדריכלי / עיצוב הבית /בניה ושיפוצים / בית חכם / ולהכיר את הסביבה העסקית</p>
+            <br>
+        </div>
+    </section>
+    <div style="background-color: #F2F2F2; padding-bottom: 100px;">
+        <app-contact-form></app-contact-form>
+    </div>
+
+    <!-- Modal Contact -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn" data-dismiss="modal"><img src="../../../../assets/icons/close.svg" alt=""></button>
+                <div class="col-8 marginAuto text-right formTitle" >
+                    <div style="margin: 15px 0px 50px 0px">
+                        <span style="font-size: 25px; color: #707070;">מלא פרטים לקבל גישה בחינם</span>
+                    </div>
+                </div>
+                <div>
+                    <form action="">
+                        <input style="width: 100% !important; margin-bottom: 20px; background-color: white; color:#949494" type="text" name="" id="1" placeholder="טלפון">
+                        <input style="width: 100% !important; margin-bottom: 20px; background-color: white; color:#949494"  type="text" name="" id="2" placeholder="אימייל">
+                        <input style="width: 100% !important; margin-bottom: 20px; background-color: white; color:#949494; margin-bottom: 40px;"  type="text" name="" id="3" placeholder="שם מלא">
+                        <button class="btn btn-primary" style="width: 100%; color: white; margin:5px 0px; background-color: #35B0E5; padding: 1pc; font-size: 20px;"  type="submit">שלח</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video Modal -->
+   
+
+
+</div>
+<div class="modal fade " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content" style="border: none;background-color: transparent;">
+        <div class="modal-body" style="background-color: transparent;">
+            <div>
+                <button class="btn"  data-dismiss="modal"><img src="../../../../assets/icons/white close.svg" class="whiteClose" alt=""></button>
+            </div>
+            <div style="padding: 10px 50px;">
+                <iframe class="m_height"  src="https://www.youtube-nocookie.com/embed/5Peo-ivmupE"  style="width: 100%;  border: none; background-color: black; border-radius: 25px;"></iframe>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>

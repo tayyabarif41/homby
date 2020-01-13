@@ -1,0 +1,46 @@
+<div>
+    <div style="z-index: 1; margin-left: 5%;" class="leftNav" >
+       <ul>
+           <li style="height: 40%;">
+               <a class="btn slide1"><img src="../../../../assets/icons/angle bracket.svg" alt=""></a>
+           </li>
+           <li style="height: 60%;">
+                <a id="sideNavWalaButton" class="btn slide1" style="padding: 0px; font-size: 25px;"> 
+                    <h6 class="rotate">קשר</h6>
+                    <h6 class="rotate" style="color: transparent;">as</h6>
+                    <h6 class="rotate">צור</h6>
+                </a>
+           </li>
+       </ul>
+    </div>
+    <div class="hidden">
+        <div class="col-12" >
+            <div class="col-12">
+                <div class="text-right">
+                    <a class="btn slide1" style="padding: 0px; font-size: 25px;"><img src="../../../../assets/icons/leftSlideColseIcon.svg" alt=""></a>
+                </div>
+                <div class="text-center" style="margin-bottom: 30px">
+                    <div>
+                        <span style="font-size: 25px; color: #707070;">צור קשר לקבל את </span>
+                    </div>
+                    <div>
+                        <span style="font-size: 25px; color: #707070;">המאגר</span>
+                    </div>
+                </div>  
+                <div class="text-center" style="margin: 0px auto ;">
+                    <form action="">
+                        <input type="text" placeholder="שם מלא">
+                        <input type="text" placeholder="אימייל">
+                        <input type="text" placeholder="טלפון">
+                        <div style="margin-top: 50px; padding-bottom: 60px;">
+                            <button  style="width: 100%; background-color: #35B0E5; font-size: 20px; border: none;" type="button" class="btn btn-primary p-2" (click)="abc()" >שלח</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="z-index: -1;" id="pageRoute">
+        <router-outlet></router-outlet>
+    </div>
+</div>

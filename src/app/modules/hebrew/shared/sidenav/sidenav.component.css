@@ -1,0 +1,64 @@
+.nav{
+    width:70px; 
+    height: 100%; 
+    background-color: white; 
+    color:#FFF; 
+    padding:5px 0px; 
+    text-align:center; 
+    top:0; 
+    position:fixed; 
+    right:0;
+    box-shadow: -1px 2px #c1c4c7;
+}
+
+.imgMiddle{
+    margin-top: 15px;
+}
+ul{ 
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+li{
+    width: 100%;
+    height: auto;
+}
+
+a{
+    width: 100%;
+    padding: 20px;
+}
+.navImage{
+    width: 30px;
+    height: 100%;
+    padding-bottom: 10px;
+}
+.navimgbtn{
+    background-color: transparent;
+    border: none;
+    margin-bottom: 50px;
+}
+.active{
+    border-left: 3px solid #35B0E5;
+}
+.internalDiv{
+    background-color: white; 
+}
+
+
+.fishes
+{
+  position: relative;
+  z-index: 1;
+  left: -14px
+}
+.fish
+{
+  position:absolute;
+  top: -5px;
+  left: 10px;
+  z-index: 2;
+}
+
