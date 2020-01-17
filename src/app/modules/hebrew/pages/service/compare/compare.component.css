@@ -62,7 +62,16 @@ header{
     height: 24px !important;
     width: 8px !important;
 }
+.playCon{
+    color: transparent !important;
+}
+.abc{
+    margin-bottom: -120px !important;
+}
 @media(max-width: 600px){
+    .abc{
+        margin-bottom: 0px !important;
+    }
     header{
         height: auto !important;
     }

@@ -1,7 +1,9 @@
 *{
     font-family: NotoSansHebrew-Regular;
 }
-
+.playCon{
+    color: transparent !important;
+}
 #mobileImg{
     display: none;
 }
@@ -64,7 +66,7 @@ header{
 }
 @media(max-width: 600px){
     header{
-        height: 58vh !important;
+        height: 54vh !important;
     }
     .scrolIcon{
         height: 12px !important;

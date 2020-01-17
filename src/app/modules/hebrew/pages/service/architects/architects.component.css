@@ -62,9 +62,12 @@ header{
     height: 24px !important;
     width: 8px !important;
 }
+.playCon{
+    color: transparent !important;
+}
 @media(max-width: 600px){
     header{
-        height: 58vh !important;
+        height: 55vh !important;
     }
     .scrolIcon{
         height: 12px !important;

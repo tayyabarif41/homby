@@ -68,7 +68,17 @@ header{
 .slogan{
     font-size: 30px !important;
 }
+.playCon{
+    color: transparent !important;
+}
+.bgImg{
+    width: 40% !important;
+}
+
 @media(max-width: 600px){
+    .bgImg{
+        width: 100% !important;
+    }
     .slogan{
         font-size:  21px;
     }
